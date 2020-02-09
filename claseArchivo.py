@@ -268,7 +268,7 @@ class Archivo:
         self.f.seek(0)
 
 
-s = 'clases3.txt.txt'
+s = 'clases3.txt'
 archivo = Archivo(s)
 archivo.cuentaVocales()
 archivo.cuentaConsonates()
